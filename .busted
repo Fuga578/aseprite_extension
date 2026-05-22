@@ -1,0 +1,11 @@
+-- busted 設定(`busted` で使用)
+return {
+  default = {
+    -- ユニットテストの探索ルート
+    ROOT = { "tests/unit" },
+    -- src/ をモジュール検索パスへ追加(require("core.command-builder") 等を解決)
+    lpath = "./src/?.lua;./src/?/init.lua",
+    -- *_spec.lua をテストファイルとして扱う
+    pattern = "_spec",
+  },
+}

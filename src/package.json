@@ -1,0 +1,9 @@
+{
+  "name": "asecli",
+  "displayName": "AseCLI",
+  "description": "Run Aseprite CLI commands from a console panel inside Aseprite. Requires Aseprite v1.3.7 or later.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Fuga578"
+  }
+}
