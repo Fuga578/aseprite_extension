@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:community.aseprite.org)",
+      "WebFetch(domain:deepwiki.com)"
+    ]
+  }
+}

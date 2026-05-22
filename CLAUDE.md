@@ -2,8 +2,9 @@
 
 ## 技術スタック
 
-- 開発環境: Python - venv
-- Python 3.10.x
+- 実装言語: Lua 5.4(Aseprite Scripting API)
+- 対象アプリ: Aseprite v1.3.7 以降(`os.execute` の戻り値が正しく取得できる最初のバージョン)
+- 配布形式: .aseprite-extension(package.json を含むZIP)、itch.io 等で配布
 
 ## スペック駆動開発の基本原則
 
